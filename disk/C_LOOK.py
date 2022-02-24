@@ -1,5 +1,7 @@
 queue = list(map(int, input('Enter request : ').split()))
 header = int(input('Head Starting Positions : '))
+lower_bound = int(input('Enter lower bound: '))
+upper_bound = int(input('Enter upper bound: '))
 u_queue = queue
 u_queue.append(header)
 u_queue.sort()
